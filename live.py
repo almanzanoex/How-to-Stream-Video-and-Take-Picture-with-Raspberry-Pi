@@ -25,7 +25,7 @@ PAGE="""\
 </html>
 """
 
-ipath = "/home/pi/Documents/mouse.py"    #CHANGE PATH TO LOCATION OF live.py
+ipath = "/home/pi/Documents/mouse.py"    #CHANGE PATH TO LOCATION OF mouse.py
 
 def thread_second():
     call(["python3", ipath])

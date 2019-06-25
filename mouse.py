@@ -85,7 +85,7 @@ while True:
 
                     #change resolution to get better latency
                     camera.resolution = (640,480)
-                    camera.capture("/media/pi/4GB DRIVE/" + str(picNum) + ".jpg")
+                    camera.capture("/media/pi/4GB DRIVE/" + str(picNum) + ".jpg")     #CHANGE PATH TO YOUR USB THUMBDRIVE
 
                 # alert picture taken
                 print("Picture taken. Stored in thumbdrive: " + str(picNum) + ".jpg")
